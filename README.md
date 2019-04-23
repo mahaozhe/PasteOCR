@@ -2,11 +2,11 @@
 ## 功能介绍
 当我们使用QQ、Tim、微信或者电脑自身的截图功能获取了截图后，不需要将图片保存成文件，只需在页面中的输入框中直接使用Ctrl+V或者右键粘贴就能得到剪贴板中的图片了。同时，我们会将你粘贴的图片上传到后台，调用百度AI的OCR（文字识别）接口，将图片中的文字识别并提取出来，将识别结果显示到页面上。最后，你可是一手动修改你认为识别不正确的地方，然后点击下边的按钮一键复制所有的识别结果，粘贴到你想要粘贴的任何部分！
 
-![截取并识别视频中的文字](http://cdn.littlegenius.xin/PasteOCR1.gif)
+![截取并识别视频中的文字](./DemoImages/PasteOCR1.gif)
 
-![截取并识别不可复制的文字内容](http://cdn.littlegenius.xin/PasteOCR2.gif)
+![截取并识别不可复制的文字内容](./DemoImages/PasteOCR2.gif)
 
-![截取并识别图片中的文字](http://cdn.littlegenius.xin/PasteOCR3.gif)
+![截取并识别图片中的文字](./DemoImages/PasteOCR3.gif)
 
 ## 基本原理与流程
 * 使用OCR接口前，需要先请求access_token，为了避免重复请求，将其保存在session中
